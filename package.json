@@ -1,19 +1,17 @@
 {
   "name": "streamit-backend",
-  "version": "1.0.0",
-  "description": "This is Backend for StreamIt App",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FiReBeNdEr07/streamit-backend.git"
-  },
-  "author": "Yash Gaur, Manikandan Ravi, Harsh Pancholi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/FiReBeNdEr07/streamit-backend/issues"
-  },
-  "homepage": "https://github.com/FiReBeNdEr07/streamit-backend#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.31.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7"
+  }
 }
